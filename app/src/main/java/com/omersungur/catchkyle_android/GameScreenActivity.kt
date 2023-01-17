@@ -63,7 +63,6 @@ class GameScreenActivity : AppCompatActivity() {
         }.start()
 
     }
-
     fun play(view: View) {
         imageView.isVisible = false
         val displayMetrics = DisplayMetrics()
